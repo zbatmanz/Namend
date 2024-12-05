@@ -1,9 +1,1 @@
- using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+ docker run --net=host -it -e NGROK_AUTHTOKEN=23Jb0mvay0EFU5l4EF2JdajQuhU_75hpVNo1EKApAdsnesayN ngrok/ngrok:latest http 80
